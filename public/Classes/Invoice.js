@@ -1,3 +1,4 @@
+// Class
 var Invoice = /** @class */ (function () {
     // readonly client: string;
     // private details: string;

@@ -1,4 +1,14 @@
-// classes
+var me = {
+    name: 'shaun',
+    age: 30,
+    speak: function (Text) {
+        console.log(Text);
+    },
+    spend: function (amount) {
+        console.log('I spent', amount);
+        return amount;
+    }
+};
 import { Invoice } from './Classes/Invoice.js';
 var invOne = new Invoice('mario', 'work on the mario website', 250);
 var invTwo = new Invoice('luigi', 'work on the luigi website', 300);
